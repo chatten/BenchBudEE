@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 6 9
 Title ""
-Date "11 feb 2014"
+Date "17 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -344,9 +344,7 @@ Wire Wire Line
 	3050 1650 3050 1600
 Connection ~ 3650 1650
 Wire Wire Line
-	3450 1100 4150 1100
-Wire Wire Line
-	4650 1100 5700 1100
+	3450 1100 5700 1100
 Connection ~ 3650 1100
 Text HLabel 5700 1100 2    60   Output ~ 0
 V+_ADJ
@@ -360,10 +358,6 @@ Text HLabel 6850 2550 2    60   Output ~ 0
 V+_ADJ_MON
 Text HLabel 6750 5450 2    60   Output ~ 0
 V-_ADJ_MON
-Text HLabel 9900 1650 2    60   Output ~ 0
-V+_CURR_MON
-Text HLabel 9800 5750 2    60   Output ~ 0
-V-_CURR_MON
 $Comp
 L R R?
 U 1 1 52F82AEB
@@ -438,154 +432,9 @@ Wire Wire Line
 	6850 3550 6400 3550
 Wire Wire Line
 	6400 3550 6400 3450
-$Comp
-L R R?
-U 1 1 52F83066
-P 4400 1100
-F 0 "R?" V 4480 1100 40  0000 C CNN
-F 1 "R" V 4407 1101 40  0000 C CNN
-F 2 "~" V 4330 1100 30  0000 C CNN
-F 3 "~" H 4400 1100 30  0000 C CNN
-	1    4400 1100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R?
-U 1 1 52F830FF
-P 4600 7000
-F 0 "R?" V 4680 7000 40  0000 C CNN
-F 1 "R" V 4607 7001 40  0000 C CNN
-F 2 "~" V 4530 7000 30  0000 C CNN
-F 3 "~" H 4600 7000 30  0000 C CNN
-	1    4600 7000
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	3450 7000 4350 7000
-Wire Wire Line
-	4850 7000 5900 7000
-Wire Wire Line
-	3950 1100 3950 1550
-Wire Wire Line
-	3950 1550 8200 1550
+	3450 7000 5900 7000
 Connection ~ 3950 1100
-Text Label 4150 1550 0    60   ~ 0
-V+_MON
-Wire Wire Line
-	4150 7000 4150 7500
-Wire Wire Line
-	4150 7500 6900 7500
-Connection ~ 4150 7000
-Text Label 4400 7500 0    60   ~ 0
-V-_MON
-$Comp
-L LM324 U?
-U 1 1 52F836D4
-P 8700 1650
-F 0 "U?" H 8750 1850 60  0000 C CNN
-F 1 "LM324" H 8850 1450 50  0000 C CNN
-F 2 "" H 8700 1650 60  0000 C CNN
-F 3 "" H 8700 1650 60  0000 C CNN
-	1    8700 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR?
-U 1 1 52F836ED
-P 8600 1150
-F 0 "#PWR?" H 8600 1100 20  0001 C CNN
-F 1 "+12V" H 8600 1250 30  0000 C CNN
-F 2 "" H 8600 1150 60  0000 C CNN
-F 3 "" H 8600 1150 60  0000 C CNN
-	1    8600 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L -12V #PWR?
-U 1 1 52F836F3
-P 8950 2100
-F 0 "#PWR?" H 8950 2230 20  0001 C CNN
-F 1 "-12V" H 8950 2200 30  0000 C CNN
-F 2 "" H 8950 2100 60  0000 C CNN
-F 3 "" H 8950 2100 60  0000 C CNN
-	1    8950 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 1750 8050 1750
-Wire Wire Line
-	8050 1750 8050 2250
-Wire Wire Line
-	8050 2250 9350 2250
-Wire Wire Line
-	9350 2250 9350 1650
-Wire Wire Line
-	9200 1650 9900 1650
-Wire Wire Line
-	8600 2050 8600 2150
-Wire Wire Line
-	8600 2150 8950 2150
-Wire Wire Line
-	8950 2150 8950 2100
-Wire Wire Line
-	8600 1250 8600 1150
-Connection ~ 9350 1650
-$Comp
-L LM324 U?
-U 1 1 52F8384E
-P 8600 5750
-F 0 "U?" H 8650 5950 60  0000 C CNN
-F 1 "LM324" H 8750 5550 50  0000 C CNN
-F 2 "" H 8600 5750 60  0000 C CNN
-F 3 "" H 8600 5750 60  0000 C CNN
-	1    8600 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR?
-U 1 1 52F83854
-P 8500 5250
-F 0 "#PWR?" H 8500 5200 20  0001 C CNN
-F 1 "+12V" H 8500 5350 30  0000 C CNN
-F 2 "" H 8500 5250 60  0000 C CNN
-F 3 "" H 8500 5250 60  0000 C CNN
-	1    8500 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L -12V #PWR?
-U 1 1 52F8385A
-P 8850 6200
-F 0 "#PWR?" H 8850 6330 20  0001 C CNN
-F 1 "-12V" H 8850 6300 30  0000 C CNN
-F 2 "" H 8850 6200 60  0000 C CNN
-F 3 "" H 8850 6200 60  0000 C CNN
-	1    8850 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 5850 7950 5850
-Wire Wire Line
-	7950 5850 7950 6350
-Wire Wire Line
-	7950 6350 9250 6350
-Wire Wire Line
-	9250 6350 9250 5750
-Wire Wire Line
-	9100 5750 9800 5750
-Wire Wire Line
-	8500 6150 8500 6250
-Wire Wire Line
-	8500 6250 8850 6250
-Wire Wire Line
-	8850 6250 8850 6200
-Wire Wire Line
-	8500 5350 8500 5250
-Connection ~ 9250 5750
-Wire Wire Line
-	6900 7500 6900 5650
-Wire Wire Line
-	6900 5650 8100 5650
 $Comp
 L RVAR R?
 U 1 1 52F83BA4

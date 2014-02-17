@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "11 feb 2014"
+Date "17 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -433,4 +433,10 @@ Text Notes 6200 1550 0    60   ~ 0
 INSTRUMENTATION AMP
 Text Notes 2850 2500 0    60   ~ 0
 16 - 24 BIT ADC\nNEED TO DETERMINE PROPER PART
+Text Notes 3150 4000 0    60   ~ 0
+MCP3901\nMICROCHIP
+Text Notes 6400 1700 0    60   ~ 0
+OPA4170AIDR\nTEXAS INSTRUMENTS
+Text Notes 7550 6100 0    60   ~ 0
+LMT86DCKT\nTEXAS INSTRUMENTS
 $EndSCHEMATC
