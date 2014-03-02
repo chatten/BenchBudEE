@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-02-23 3:41:46 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2014-03-02 12:08:49 PM
 
 BeginCmp
 TimeStamp = /52EEE583/53022634;
@@ -113,6 +113,20 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
+TimeStamp = /52EEE774/53135784;
+Reference = J1;
+ValeurCmp = 3 Pin TB;
+IdModule  = 3pinTermBlock;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EEE774/531356A5;
+Reference = J4;
+ValeurCmp = 12 Pin Terminal Block;
+IdModule  = 12pinTermBlock;
+EndCmp
+
+BeginCmp
 TimeStamp = /52F6797D/52F81DF9;
 Reference = JP1;
 ValeurCmp = JUMPER;
@@ -164,8 +178,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EEE692/52F67DB2;
 Reference = P1;
-ValeurCmp = CONN_12X2;
-IdModule  = ;
+ValeurCmp = 24 Pin ATX;
+IdModule  = ATX_Header;
 EndCmp
 
 BeginCmp
